@@ -1,0 +1,107 @@
+#align{
+
+   margin-top: -28px;
+    margin-left: 850px;
+    display: flex;
+}
+input{
+    margin-left: 560px;
+    height: 25px;
+    width: 170px;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 0 1rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+#Movies{
+    margin-left: 560px;
+    height: 200px;
+    width: 205px;
+    border: solid 1px black;
+    overflow: scroll;
+    border-radius: 10px;
+}
+body{
+    background-color: rgb(62, 60, 60);
+    background-image: url("https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2016/08/monsters-inc.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+    
+}
+#container{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+    margin: 50px 0 0 120px;
+}
+#container1{
+    width: 40%;
+    margin-left: 400px;
+}
+#container>div{
+    background-color: white;
+    width: 65%;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+#container2{
+    margin-top: -100px;
+    width: 25%;
+    margin-left: 100px;
+}
+#container2>div{
+    background-color: white;
+    height: 400px;
+    width: 65%;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+#container2>div>img{
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+img{
+    height: 350px;
+    width: 100%;
+    border-radius: 10px;
+}
+div>p{
+    color: black;
+}
+h2{
+    color: red;
+}
+h1{
+    margin: -10px 0 0 0px;
+    color: rgb(255, 255, 0);
+}
+#Movies{
+    background-color: white;
+}
+#adjust{
+    margin-top: -35px;
+    margin-left: 80%;
+}
+#adjust1{
+    margin-top: -35px;
+    margin-left: 93%;
+}
